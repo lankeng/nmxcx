@@ -1,0 +1,96 @@
+<view class='claimform'> 
+  <form>
+    <view class='claimform-con'>
+      <view class='claimform-cona'>
+        <view class='clcon-left'>
+          <text class='cleft-texta'>*</text>
+          <text class='cleft-textb'>新闻分类</text>
+        </view>
+        <view class='clcon-right'>
+          <picker mode="selector" range="{{newscla}}" value="{{newsindex}}" bindchange="listenerPickersex" class="seletor">
+            <text class='cright-text'>{{newscla[newsindex]}}</text>
+          </picker>
+        </view>
+      </view>
+      <view class='claimform-cona'>
+        <view class='clcon-left'>
+          <text class='cleft-texta'>*</text>
+          <text class='cleft-textb'>工作性质</text>
+        </view>
+        <view class='clcon-right'>
+          <picker mode="selector" range="{{workcla}}" value="{{workindex}}" bindchange="workPickersex" class="seletor">
+            <text class='cright-text'>{{workcla[workindex]}}</text>
+          </picker>
+        </view>
+      </view>
+      <view class='claimform-cona'>
+        <view class='clcon-left'>
+          <text class='cleft-texta'>*</text>
+          <text class='cleft-textb'>身份证号</text>
+        </view>
+        <view class='clcon-right'>
+          <input type='text' placeholder='请输入您的身份证号' placeholder-class='cr-iptplace' class='cr-ipt' bindinput='idnumber'></input>
+        </view>
+      </view>
+      <view class='claimform-conb'>
+        <view class='conb-top'>
+          <view class='clcon-left'>
+            <text class='cleft-texta'>*</text>
+            <text class='cleft-textb'>身份证照片</text>
+          </view>
+          <view class='clcon-right'>
+          </view>
+        </view>
+        <view class='conb-bom'>
+          <view class="educt_hasupload_pic" wx:for="{{evalList[0].tempFilePaths}}" wx:key="index" class='bom-img'>
+            <image src="{{item.pic}}" bindtap='clearImg' class="upload" class='cbom-add'></image>
+          </view>
+          <view class="educt_upload_add" bindtap="joinPicture" data-index="{{0}}" class='bom-add'>
+            <image src="../../images/add.png" class='cbom-add'></image>
+          </view>
+        </view>
+      </view>
+      <view class='claimform-conb'>
+        <view class='conb-top'>
+          <view class='clcon-left'>
+            <text class='cleft-textb'>其他材料</text>
+          </view>
+          <view class='clcon-right'>
+          </view>
+        </view>
+        <view class='conb-bom'>
+          <view class="educt_hasupload_pic" wx:for="{{evalLista[0].tempFilePathsa}}" wx:key="index" class='bom-img'>
+            <image src="{{item.pic}}" bindtap='clearImga' class="upload" class='cbom-add'></image>
+          </view>
+          <view class="educt_upload_add" bindtap="joinPicturea" data-index="{{0}}" class='bom-add'>
+            <image src="../../images/add.png" class='cbom-add'></image>
+          </view>
+        </view>
+      </view>
+      <view class='claimform-cona'>
+        <view class='clcon-left'>
+          <text class='cleft-texta'>*</text>
+          <text class='cleft-textb'>电子邮箱</text>
+        </view>
+        <view class='clcon-right'>
+          <input type='text' placeholder='请输入您的电子邮箱' placeholder-class='cr-iptplace' class='cr-ipt' bindinput='emailto'></input>
+        </view>
+      </view>
+      <view class='claimform-cona'>
+        <view class='clcon-left'>
+          <text class='cleft-texta'>*</text>
+          <text class='cleft-textb'>手机号码</text>
+        </view>
+        <view class='clcon-right'>
+          <input type='text' placeholder='请输入您的手机号码' placeholder-class='cr-iptplace' class='cr-ipt' bindinput='telnumf'></input>
+        </view>
+      </view>
+      <view class='claimform-btn'>
+        <button class='btn-self' bindtap='claimsubmit' disabled='{{check}}'>提交</button>
+      </view>
+    </view>
+  </form>
+</view>
+<view class='suc-save' animation='{{alphaData}}'>
+恭喜你，认领成功！
+</view>

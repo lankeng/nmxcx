@@ -1,0 +1,16 @@
+<view class='myclaim'>
+  <view class='rank-tab'>
+    <view class='rtab-th'>
+      <view class='rth-rank'>机构</view>
+      <view class='rth-author'>姓名</view>
+      <view class='rth-index'>认领日期</view>
+    </view>
+    <view class='rtab-tr'>
+      <view class='tr-num'>西江日报</view>
+      <view class='tr-author'>
+        <view class='tauthor-name'>兰孝媛</view>
+      </view>
+      <view class='tr-index'>2018-08-05</view>
+    </view>
+  </view>
+</view>

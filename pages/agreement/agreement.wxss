@@ -1,0 +1,13 @@
+.agreementall{
+  width: 100%;
+  padding-top: 70rpx;
+}
+.aboutme {
+	font-size: 24rpx;
+	color: #333333;
+	padding: 0rpx 25rpx;
+	line-height: 40rpx;
+}
+.agreement {
+	margin-top: 10rpx;
+}

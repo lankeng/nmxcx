@@ -1,0 +1,32 @@
+<view class='livedetail'>
+  <view class='homepage-head'>
+    <view class='hp-logo'>
+      <image src='{{logo}}' class='logo-slef'></image>
+    </view>
+    <form class='hp-search'>
+      <view class='search-cnt'>
+        <image src='{{search}}' class='scnt-img'></image>
+        <input type='text' placeholder='输入相关信息进行搜索' class='scnt-ipt' placeholder-class='plasearch' bindinput='checksearch' value='{{searchval}}'></input>
+        <image src='{{close}}' class="{{cnt?'scnt-close':'scnt-closea'}}" bindtap='closeipt'></image>
+      </view>
+      <view class='search-btn'>
+        <view class='sbtn-one' bindtap='searchauthor'>
+          <image src='{{author}}' class='so-img'></image>
+          <view class='so-text'>找记者</view>
+        </view>
+        <view class='sbtn-one' bindtap='searchnews'>
+          <image src='{{news}}' class='so-img'></image>
+          <view class='so-text'>搜新闻</view>
+        </view>
+        <view class='sbtn-one' bindtap='searchist'>
+          <image src='{{institutions}}' class='so-img'></image>
+          <view class='so-text'>查报社</view>
+        </view>
+      </view>
+    </form>
+  </view>
+  <view class='hp-interval'></view>
+  <view class='ld-con'>
+    9月30日，记者从成都住房公积金管理委员会获悉，新修订的《成都住房公积金缴存管理办法》（以下简称《缴存办法》）和《成都住房公积金个人住房贷款管理办法》（以下简称《贷款办法》），已经出炉。其中，新修订的《缴存办法》扩大了住房公积金制度覆盖面，提出年满18周岁且未达法定退休年龄的个体工商户及其雇用人员、自由职业者以及其他灵活就业人员，均可自愿缴存住房公积金。新修订的《贷款办法》也相应扩大了贷款对象，规定公积金贷款对象由本市正常缴存的职工，扩大到本市的个人自愿缴存者及符合规定条件的异地缴存职工。新修订的《缴存办法》和《贷款办法》将于10月1日起实施。
+  </view>
+</view>

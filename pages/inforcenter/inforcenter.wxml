@@ -1,0 +1,104 @@
+<view class='inforcenter'>
+  <view class='infor-head'>
+    <view class='ih-img'>
+      <image class='img-self' src='/images/headimg.png'></image>
+    </view>
+    <view class='ih-name'>测试账户01</view>
+  </view>
+  <view class="myclaim">
+    <view class="line-car-title">
+      <view class='vip-title'>VIP套餐</view>
+    </view>
+    <view class="vip-con" bindtap='topackage'>
+      <view class='vc-imgone'>
+        <image src='/images/vip.png' class='imgone-self'></image>
+      </view>
+      <text class='vc-text'>记者连线服务</text>
+      <view class='vc-imgtwo'>
+        <image src='/images/forward.png' class='imgtwo-self'></image>
+      </view>
+    </view>
+  </view>
+  <view class="line-height"></view>
+  <view class="myclaim">
+    <view class="line-car-title">
+      <view class='vip-title'>我的素材</view>
+    </view>
+    <view class="line-car-ranking">
+      <view class="car-ranking">
+        <text>机构</text>
+        <text>西江日报</text>
+      </view>
+      <view class="car-ranking">
+        <text>姓名</text>
+        <text>兰孝媛</text>
+      </view>
+      <view class="car-ranking">
+        <text>认领日期</text>
+        <text>2018-08-05</text>
+      </view>
+    </view>
+  </view>
+  <view class="line-height"></view>
+  <view class="myclaim">
+    <view class="line-car-title">
+      <view>
+        <view class='vip-title'>报料跟踪</view>
+      </view>
+      <text class="personal-list-arrow line-car-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+    <view class="line-car-ranking">
+      <view class="car-ranking">
+        <text>素材编号</text>
+        <text>201608000002</text>
+      </view>
+      <view class="car-ranking">
+        <text>素材主题</text>
+        <text>0202</text>
+      </view>
+      <view class="car-ranking">
+        <text>素材日期</text>
+        <text>2016-08-16</text>
+      </view>
+    </view>
+  </view>
+  <view class="line-height"></view>
+  <view class="personal">
+    <view class="personal-list" bindtap='tobusiness'>
+      <view class="personal-list-text">
+        <image src="{{cooperation}}"></image>
+        <text>商务合作</text>
+      </view>
+      <text class="personal-list-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+    <view class="personal-list" bindtap='todatashow'>
+      <view class="personal-list-text">
+        <image src="{{data1}}"></image>
+        <text>数据说明</text>
+      </view>
+      <text class="personal-list-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+    <view class="personal-list" bindtap='toaboutme'>
+      <view class="personal-list-text">
+        <image src="{{aboutmea}}"></image>
+        <text>关于我们</text>
+      </view>
+      <text class="personal-list-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+  </view>
+  <view class="cancel">
+    <button class="cancel-btn">注销退出</button>
+  </view>
+</view>

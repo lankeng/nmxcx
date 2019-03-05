@@ -1,0 +1,248 @@
+.package {
+  width: 100%;
+  overflow: hidden;
+}
+
+.package-top {
+  width: 100%;
+  height: 433rpx;
+  background-color: #f4e7ba;
+}
+
+.pt-img {
+  width: 100%;
+  height: 100%;
+}
+
+.package-back {
+  width: 100%;
+  height: 29rpx;
+  background-color: #ffcb34;
+  margin-top: -21rpx;
+}
+
+.package-con{
+  width: 100%;
+  position: relative;
+  background-color: #FFCB34;
+  padding-top: 34rpx;
+  padding-bottom: 202rpx;
+}
+.pcon-ellipse {
+  width: 125rpx;
+  height: 228rpx;
+  background-color: #fffb64;
+  border-radius: 50%;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: -15rpx;
+  top: 250rpx;
+}
+
+.pcon-ellipsea {
+  border-radius: 50%;
+  width: 125rpx;
+  height: 228rpx;
+  background-color: #fffb64;
+  transform: rotate(-30deg);
+  position: absolute;
+  left: -10rpx;
+  top: 238rpx;
+  opacity: 0.3;
+}
+
+.pcon-ellipsec {
+  border-radius: 50%;
+  width: 130rpx;
+  height: 70rpx;
+  background-color: #fffb64;
+  transform: rotate(-30deg);
+  position: absolute;
+  right: 100rpx;
+  top: 285rpx;
+  opacity: 0.4;
+}
+
+.pcon-ellipsed {
+  border-radius: 50%;
+  width: 130rpx;
+  height: 70rpx;
+  background-color: #fffb64;
+  transform: rotate(-30deg);
+  position: absolute;
+  right: 80rpx;
+  top: 280rpx;
+  opacity: 0.4;
+}
+
+.pcon-ellipsee {
+  border-radius: 50%;
+  width: 130rpx;
+  height: 250rpx;
+  background-color: #fffb64;
+  transform: rotate(50deg);
+  position: absolute;
+  right: 25rpx;
+  top: 605rpx;
+  opacity: 0.4;
+}
+
+.pcon-ellipsef {
+  border-radius: 50%;
+  width: 130rpx;
+  height: 250rpx;
+  background-color: #fffb64;
+  transform: rotate(50deg);
+  position: absolute;
+  right:15rpx;
+  top: 619rpx;
+  opacity: 0.4;
+}
+
+.pcon-ellipseg {
+  border-radius: 50%;
+  width: 130rpx;
+  height: 70rpx;
+  background-color: #fffb64;
+  transform: rotate(-30deg);
+  position: absolute;
+  right: 145rpx;
+  top: 981rpx;
+  opacity: 0.4;
+}
+
+.pcon-ellipseh {
+  border-radius: 50%;
+  width: 130rpx;
+  height: 70rpx;
+  background-color: #fffb64;
+  transform: rotate(-30deg);
+  position: absolute;
+  right: 160rpx;
+  top: 988rpx;
+  opacity: 0.4;
+}
+
+.pcon-pone{
+  width: 100%;
+  height: 298rpx;
+}
+.pcon-pageo{
+  width: 584rpx;
+  margin: auto;
+  position: relative;
+}
+.pone-img{
+  width: 100%;
+  height: 100%;
+}
+
+.pageo-title{
+  color: #FFFFFF;
+  font-size: 30rpx;
+  position: absolute;
+  top: 10rpx;
+  left: 240rpx;
+  letter-spacing: 10rpx;
+}
+.pageo-con{
+  color: #333333;
+  font-size: 30rpx;
+  position: absolute;
+  top: 97rpx;
+  left: 175rpx;
+  font-weight: bold;
+}
+.pageo-detail{
+  color: #333333;
+  font-size: 20rpx;
+  position: absolute;
+  top: 137rpx;
+  left: 160rpx;
+}
+.pageo-str{
+  font-size: 30rpx;
+  color: #E54142;
+  font-weight: bold;
+  position: relative;
+  top: -22rpx;
+}
+.pageo-num{
+    color: #E54142;
+  font-weight: bold;
+  font-size: 60rpx;
+}
+.pageo-money{
+  position: absolute;
+  top: 189rpx;
+  left: 53rpx;
+}
+.pageo-btn{
+  width: 179rpx;
+  height: 67rpx;
+  position: absolute;
+  top: 205rpx;
+  right: 42rpx;
+}
+.pbtn-img{
+  width: 100%;
+  height: 100%;
+}
+.pcon-paget{
+  width: 584rpx;
+  margin: auto;
+  position: relative;
+  margin-top: 50rpx;
+}
+.pageo-detailt{
+  color: #333333;
+  font-size: 20rpx;
+  position: absolute;
+  top: 137rpx;
+  left: 89rpx;
+}
+.pageo-cont{
+  color: #333333;
+  font-size: 30rpx;
+  position: absolute;
+  top: 97rpx;
+  left: 150rpx;
+  font-weight: bold;
+}
+.pageo-contr{
+  color: #333333;
+  font-size: 30rpx;
+  position: absolute;
+  top: 97rpx;
+  left: 232rpx;
+  font-weight: bold;
+}
+.pageo-detailtr{
+  width: 475rpx;
+  color: #333333;
+  font-size: 20rpx;
+  position: absolute;
+  top: 137rpx;
+  left: 51rpx;
+}
+.warn-img{
+  width: 188rpx;
+  height: 67rpx;
+  margin: auto;
+  position: relative;
+  top: 46rpx;
+}
+.wimg-self{
+  width: 100%;
+  height: 100%;
+}
+.warn-text{
+  width: 576rpx;
+	color: #FFFFFF;
+	font-size: 24rpx;
+	margin: auto;
+	font-weight: bold;
+	text-shadow: #611885 1px 0 0, #611885 0 1px 0, #611885 -1px 0 0, #611885 0 -1px 0;
+  position: relative;
+  top: 65rpx;
+}

@@ -1,0 +1,11 @@
+<view class='business'>
+  <view class='business-con'>
+    <view>服务电话： 400-060-5186</view>
+    <view class='bs-comaddress'>
+      <view class='bs-address'>公司地址：</view>
+      <view class='bs-address-name'>广东省广州市海珠区新港中路赤岗街道354号珠影蓝谷204</view>
+    </view>
+    <view>客服QQ： 1402450034</view>
+    <view>客服工作时间：9:00 - 19:00</view>
+  </view>
+</view>

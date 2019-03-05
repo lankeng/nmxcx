@@ -1,0 +1,28 @@
+.article{
+  margin: 0 26rpx;
+  padding-bottom: 55rpx;
+}
+.article-title{
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+.article-synopsis{
+  margin-top: 30rpx;
+}
+.article-synopsis text{
+  margin-bottom: 10rpx;
+  display: block;
+  font-size: 24rpx;
+  color: #999;
+}
+.article-content text{
+  display: inline-block;
+  text-indent: 2em;
+  font-size: 30rpx;
+  color: #333;
+}
+.statement{
+  color: #CECECE;
+  font-size: 20rpx;
+}

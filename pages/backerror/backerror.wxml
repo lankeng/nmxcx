@@ -1,0 +1,9 @@
+<view class='backerror'>
+  <view class='backerror-img'>
+    <image src='/images/backerror.png' class='img-self'></image>
+  </view>
+  <view class='backerror-text'>
+  Ooops！您的页面走丢了( T﹏T )
+  </view>
+  <button class='backerror-btn'>返回首页</button>
+</view>

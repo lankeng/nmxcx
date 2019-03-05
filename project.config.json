@@ -1,0 +1,188 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wxcedba6c3e8520301",
+	"projectname": "nmxcx",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 23,
+			"list": [
+				{
+					"id": -1,
+					"name": "记者排行",
+					"pathName": "pages/rank/rank",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "搜索结果",
+					"pathName": "pages/searchresult/searchresult",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的认领",
+					"pathName": "pages/myclaim/myclaim",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/aboutme/aboutme",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "数据说明",
+					"pathName": "pages/datashow/datashow",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "商务合作",
+					"pathName": "pages/business/business",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "用户隐私与服务",
+					"pathName": "pages/agreement/agreement",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "认领成功",
+					"pathName": "pages/suclaim/suclaim",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "认领表单",
+					"pathName": "pages/claimform/claimform",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "直播资讯详情",
+					"pathName": "pages/livedetail/livedetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "牛媒套餐主页",
+					"pathName": "pages/package/package",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "牛媒套餐1",
+					"pathName": "pages/packageone/packageone",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "牛媒套餐2",
+					"pathName": "pages/packagetwo/packagetwo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "牛媒套餐3",
+					"pathName": "pages/packagethree/packagethree",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "注册",
+					"pathName": "pages/regiest/regiest",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "找回密码",
+					"pathName": "pages/findback/findback",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的接料",
+					"pathName": "pages/mymaterial/mymaterial",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "错误提示404",
+					"pathName": "pages/backerror/backerror",
+					"query": ""
+				},
+				{
+					"id": 20,
+					"name": "记者详情标题",
+					"pathName": "pages/articledetails/articledetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "记者详情",
+					"pathName": "pages/reporterdetails/reporterdetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "记者个人中心",
+					"pathName": "pages/personcenter/personcenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "线人个人中心",
+					"pathName": "pages/inforcenter/inforcenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录授权",
+					"pathName": "pages/authorization/authorization",
+					"query": ""
+				}
+			]
+		}
+	}
+}

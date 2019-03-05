@@ -1,0 +1,42 @@
+<view class='regiest'>
+  <form>
+    <view class='regiest-select'>
+      <view class="{{selectxr?'rs-informants':'rs-cinformants'}}" bindtap='selectin'>线人注册</view>
+      <view class='rs-inforline' wx:if='{{selectxr}}'></view>
+      <view class="{{selectjz?'rs-creporter':'rs-reporter'}}" bindtap='selectre'>记者注册</view>
+      <view class='rs-reline' wx:if='{{selectjz}}'></view>
+    </view>
+    <view class='login-tel'>
+      <view class='tel-text'>手机号</view>
+      <input type='text' class='tel-num' placeholder='请输入手机号码' placeholder-class='tel' bindinput='getPhoneValue'></input>
+    </view>
+    <view class='login-pwd'>
+      <view class='tel-text'>密码</view>
+      <input type='password' class='tel-num' placeholder='请输入密码' placeholder-class='tel'></input>
+    </view>
+    <view class='regiest-vcode'>
+      <view class='tel-text'>验证码</view>
+      <input type='text' class='tel-numt' placeholder='请输入验证码' placeholder-class='tel'></input>
+      <view class='tel-show' bindtap='getVerificationCode'>{{codename}}</view>
+    </view>
+    <view class='login-forget'>
+      <text class='regiest-have'>已有账号？</text>
+      <text class='lf-text' bindtap='tologin'>点此登录></text>
+    </view>
+    <button class='login-btn' bindtap='toregiest'>注册</button>
+  </form>
+  <view class='regiest-agreement'>
+    <text>注册即表示你同意</text>
+    <text class='rg-to' bindtap='toprivacy'>用户隐私与服务</text>
+  </view>
+</view>
+<!-- <view class='suc-save' animation='{{alphaData}}'>
+恭喜你，注册成功！
+</view> -->
+<view class="suctologin" animation='{{alphaData}}'>
+  <view class="suc-login{{mn?'a':''}}">
+    <image src='/images/claimsuc.png' class='login-image'></image>
+    <view class='login-text'>注册成功</view>
+  </view>
+  <view class="loginback{{mn?'a':''}}" bindtap='tostop'></view>
+</view>

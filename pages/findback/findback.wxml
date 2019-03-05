@@ -1,0 +1,36 @@
+<view class='findback'>
+  <form>
+    <view class='login-forget'>
+      <text class='regiest-have'>已有账号？</text>
+      <text class='lf-text' bindtap='tologin'>点此登录></text>
+    </view>
+    <view class='login-tel'>
+      <view class='tel-text'>手机号</view>
+      <input type='text' class='tel-num' placeholder='请输入手机号码' placeholder-class='tel' bindinput='getPhoneValue'></input>
+    </view>
+    <view class='regiest-vcode'>
+      <view class='tel-text'>验证码</view>
+      <input type='text' class='tel-numt' placeholder='请输入验证码' placeholder-class='tel'></input>
+      <view class='tel-show' bindtap='getVerificationCode'>{{codename}}</view>
+    </view>
+    <view class='findback-news'>
+      <view class='tel-text'>新密码</view>
+      <input type='password' class='tel-num' placeholder='请输入密码' placeholder-class='tel'></input>
+    </view>
+    <view class='findback-newsag'>
+      <view class='fn-againtext'>确认密码</view>
+      <input type='password' class='tel-numag' placeholder='请再次输入密码' placeholder-class='tel'></input>
+    </view>
+    <button class='login-btn' bindtap='claimsubmit'>修改完成</button>
+  </form>
+</view>
+<!-- <view class='suc-save' animation='{{alphaData}}'>
+恭喜你，修改密码成功！
+</view> -->
+<view class="suctologin" animation='{{alphaData}}'>
+  <view class="suc-login{{mn?'a':''}}">
+    <image src='/images/claimsuc.png' class='login-image'></image>
+    <view class='login-text'>找回密码成功</view>
+  </view>
+  <view class="loginback{{mn?'a':''}}" bindtap='tostop'></view>
+</view>

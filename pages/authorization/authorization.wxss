@@ -1,0 +1,55 @@
+.authorization {
+  width: 100%;
+  padding-top: 68rpx;
+}
+
+.au-text {
+  font-size: 24rpx;
+  color: #999999;
+  text-align: center
+}
+.au-wx{
+  width: 690rpx;
+  height: 88rpx;
+  background-color: #00C587;
+  border-radius: 10rpx;
+  display: block;
+  line-height: 88rpx;
+  margin-top: 42rpx;
+}
+.wx-img{
+  width: 42rpx;
+  height: 34rpx;
+  display: inline-block;
+}
+.img-self{
+  width: 100%;
+  height: 100%;
+}
+.wx-text{
+  font-size: 36rpx;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 10rpx;
+}
+.au-tel{
+  width: 690rpx;
+  height: 88rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  display: block;
+  line-height: 88rpx;
+  margin-top: 42rpx;
+  border: 1rpx solid #00C587;
+}
+.wx-texta{
+  font-size: 36rpx;
+  color: #00C587;
+  display: inline-block;
+  margin-left: 10rpx;
+}
+.wx-imga{
+  width: 28rpx;
+  height: 42rpx;
+  display: inline-block;
+}

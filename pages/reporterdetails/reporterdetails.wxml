@@ -1,0 +1,128 @@
+<view class="author">
+  <view class="author-main">
+    <view class="author-box">
+      <image class="author-box-img" src="{{headimg}}"></image>
+      <image src="{{member}}" class="author-box-cation"></image>
+    </view>
+    <view class="author-brief">
+      <text class="author-title">{{showdata.fd_name}}</text>
+      <text class="author-introduce">简介：这家伙很懒，什么都没留下。这家伙很懒，什么都没留下。</text>
+    </view>
+  </view>
+  <view class="author-list">
+    <view class="claim" bindtap='toclaim'>
+      <text class="claim-btn">我要认领</text>
+    </view>
+    <view class="claim mechanism">
+      <text>{{showdata.medianewsnetwork[0].newspaper}}</text>
+      <text>当前机构</text>
+    </view>
+    <view class="claim mouth">
+      <text>{{showdata.mediaclassification}}</text>
+      <text>当前线口</text>
+    </view>
+  </view>
+  <view class="line-height"></view>
+</view>
+
+
+<!--导航栏-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+<!--当前排名-->
+<view hidden="{{currentTab!==0}}">
+  <view class="product">
+    <view class="ranking-list">
+      <view class="ranking-list-title">
+        <image src="{{srankg}}"></image>
+        <text>综合排名</text>
+      </view>
+      <view class="ranking-list-number">
+        <text>{{showdata.mediainfluencerank}}</text>
+      </view>
+    </view>
+    <view class="ranking-list">
+      <view class="ranking-list-title">
+        <image src="{{sranko}}"></image>
+        <text>知名度排名</text>
+      </view>
+      <view class="ranking-list-number">
+        <text>{{showdata.mediapopularityrank[0].rank_sequence}}</text>
+      </view>
+    </view>
+    <view class="ranking-list">
+      <view class="ranking-list-title">
+        <image src="{{srankb}}"></image>
+        <text>影响力排名</text>
+      </view>
+      <view class="ranking-list-number">
+        <text></text>
+      </view>
+    </view>
+    <view class="ranking-list">
+      <view class="ranking-list-title">
+        <text>字数排名</text>
+      </view>
+      <view class="ranking-list-number">
+        <text>{{showdata.mediawordrank[0].rank_sequence}}</text>
+      </view>
+    </view>
+    <view class="ranking-list">
+      <view class="ranking-list-title">
+        <text>稿件数量</text>
+      </view>
+      <view class="ranking-list-number">
+        <text>{{showdata.medianewsrank[0].rank_count}}</text>
+      </view>
+    </view>
+    <view class="ranking-list">
+      <view class="ranking-list-title">
+        <text>稿件字数</text>
+      </view>
+      <view class="ranking-list-number">
+        <text>{{showdata.mediawordrank[0].rank_count}}</text>
+      </view>
+    </view>
+    <view class="ranking-list">
+      <view class="ranking-list-title">
+        <text>稿件数排名</text>
+      </view>
+      <view class="ranking-list-number">
+        <text>{{showdata.medianewsrank[0].rank_sequence}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!--最新稿件-->
+<view hidden="{{currentTab!==1}}">
+  <view class="product">
+    <view class="news-content">
+      <view class="car-content">
+        <text class="car-content-title">人人参与扮靓邗城迎省运</text>
+        <view class="car-content-data">
+          <text class="car-content-tiem">发布时间：2018年09月19日</text>
+          <text class="car-content-source">来源：扬州晚报</text>
+          <text class="car-content-details">本报讯（张浩 杨静 陈云飞 钱伟）从8月25日开始，扬州市全面开展全市环境卫生大扫除行动，号召全城全民动起来，为省运会、省园博会的成功举办营造干净整洁省运会、省园博会的成功举办营造干净整洁的城市环境，18日，区委书记张耀武走上街头参加大扫除活动，并看望慰问辛勤劳作的志愿者和环卫工作。他指 </text>
+          <text class="make" bindtap="makebtn">[阅读全文]</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!--稿件排行-->
+<view hidden="{{currentTab!==2}}">
+  <view class="product">
+    <view class="news-content">
+      <view class="car-content">
+        <text class="car-content-title">人人参与扮靓邗城迎省运</text>
+        <view class="car-content-data">
+          <text class="car-content-tiem">发布时间：2018年09月19日</text>
+          <text class="car-content-source">来源：扬州晚报</text>
+          <text class="car-content-details">本报讯（张浩 杨静 陈云飞 钱伟）从8月25日开始，扬州市全面开展全市环境卫生大扫除行动，号召全城全民动起来，为省运会、省园博会的成功举办营造干净整洁省运会、省园博会的成功举办营造干净整洁的城市环境，18日，区委书记张耀武走上街头参加大扫除活动，并看望慰问辛勤劳作的志愿者和环卫工作。他指 </text>
+          <text class="make">[阅读全文]</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

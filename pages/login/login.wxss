@@ -1,0 +1,164 @@
+.login {
+  width: 100%;
+  padding-top: 60rpx;
+}
+
+.lr-text {
+  font-size: 24rpx;
+  color: #333;
+  position: absolute;
+  right: 66rpx;
+}
+
+.lr-img {
+  width: 13rpx;
+  height: 22rpx;
+  position: absolute;
+  right: 36rpx;
+  top: 7rpx;
+}
+
+.login-register {
+  position: relative;
+  width: 100%;
+  height: 23rpx;
+}
+
+.login-tel {
+  display: block;
+  width: 677rpx;
+  padding: 30rpx 0rpx;
+  border-bottom: 1rpx solid #DEDEDE;
+  margin: auto;
+  position: relative;
+}
+
+.tel-text{
+  font-size: 30rpx;
+  color: #333333;
+  display: inline-block;
+  width: 90rpx;
+}
+.tel-num{
+  width: 507rpx;
+  display: inline-block;
+  position: relative;
+  padding: 0rpx 40rpx;
+}
+.tel{
+  color: #CACACA;
+  font-size: 24rpx;
+}
+.tel-numt{
+  width: 487rpx;
+  display: inline-block;
+  position: relative;
+  padding-left: 40rpx;
+}
+.tel-show{
+  width: 60rpx;
+  display: inline-block;
+  font-size: 22rpx;
+  color: #666666;
+  text-align: center
+}
+
+.login-forget {
+  position: relative;
+  width: 100%;
+  height: 30rpx;
+  margin-top: 30rpx;
+  line-height: 30rpx;
+}
+
+.lf-text {
+  font-size: 24rpx;
+  color: #1E78E7;
+  position: absolute;
+  right: 36rpx;
+}
+.login-btn{
+  width: 677rpx;
+  height: 82rpx;
+  margin: auto;
+  border-radius: 6rpx;
+  background-color: #00C587;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  margin-top: 87rpx;
+}
+/* .suc-save{
+  width: 100%;
+  height: 64rpx;
+  background-color: #09BB07;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24rpx;
+  line-height: 64rpx;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  opacity: 0;
+} */
+.loginback {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  display: none
+}
+
+.suc-login {
+  position: absolute;
+  top: 400rpx;
+  left: 118rpx;
+  width: 530rpx;
+  height: 420rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  text-align: center;
+  display: none
+}
+
+.login-image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 80rpx;
+}
+
+.login-text {
+  color: #333;
+  font-size: 36rpx;
+  font-weight: 500;
+  margin-top: 15rpx;
+}
+
+.suctologin {
+  opacity: 0;
+}
+
+.loginbacka {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  display: block
+}
+
+.suc-logina {
+  z-index: 11;
+  position: absolute;
+  top: 400rpx;
+  left: 118rpx;
+  width: 530rpx;
+  height: 420rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  text-align: center;
+  display: block
+}

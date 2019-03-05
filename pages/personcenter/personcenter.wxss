@@ -1,0 +1,260 @@
+page {
+  background: #f5f5f5;
+}
+
+.portrait {
+  position: relative;
+  height: 224rpx;
+  width: 100%;
+  padding-top: 60rpx;
+  background: #00c587;
+}
+
+.portrait-car {
+  margin: 0 auto;
+  height: 272rpx;
+  width: 670rpx;
+  background: #fff;
+  border-radius: 5rpx;
+  box-shadow: 1rpx 25rpx 30rpx #ccc;
+  position: relative;
+}
+
+.portrait-img {
+  position: absolute;
+  top: -55rpx;
+  left: 50%;
+  margin-left: -100rpx;
+  width: 200rpx;
+}
+
+.head-portrait-img {
+  margin: 0 auto;
+  display: block;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+
+.portrait-img text {
+  margin-top: 20rpx;
+  text-align: center;
+  display: block;
+  font-size: 24rpx;
+}
+
+.mouth-car {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 35rpx;
+  background: #fff;
+}
+
+.mouth-car .line-mouth {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.mouth-car .line-mouth text {
+  display: block;
+}
+
+.mouth-car .line-mouth text:first-child {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.mouth-car .line-mouth text:last-child {
+  font-size: 20rpx;
+  color: #666;
+}
+
+.line-car {
+  padding: 100rpx 0 0;
+  background: #fff;
+}
+
+.line-car-title {
+  padding-left: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30rpx;
+  padding-top: 30rpx
+}
+
+.line-car-arrow {
+  top: 20rpx;
+}
+
+.line-car-title::before {
+  content: "";
+  width: 6rpx;
+  height: 30rpx;
+  background-color: #00c587;
+  position: absolute;
+  top: 56rpx;
+  left: 23rpx;
+}
+
+.line-car-ranking {
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+}
+.line-car-rankinga {
+  padding-top: 40rpx;
+}
+
+.line-car-ranking .car-ranking {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+}
+
+.line-car-rankinga .car-ranking {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+}
+
+.car-ranking .car-ranking-img image {
+  display: inline-block;
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.car-ranking .car-ranking-img .car-ranking-title {
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.car-ranking text:first-child, .car-ranking-row text:first-child {
+  display: block;
+  font-size: 24rpx;
+}
+
+.car-ranking text:last-child, .car-ranking-row text:last-child {
+  padding-top: 10rpx;
+  display: block;
+  font-size: 24rpx;
+  color: #666;
+}
+
+.line-car-ranking .car-ranking-row {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.line-car-rankinga .car-ranking-row {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+   padding-bottom: 40rpx;
+}
+
+.myranking, .myclaim {
+
+}
+
+.line-height {
+  height: 20rpx;
+  background: #f5f5f5;
+}
+
+.personal {
+  background: #fff;
+}
+
+.personal-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 36rpx 30rpx;
+  border-bottom: 2rpx solid #f5f5f5;
+}
+
+.personal-list:last-child {
+  border-bottom: none;
+}
+
+.personal-list-text {
+  font-size: 26rpx;
+}
+
+.personal-list-text image {
+  display: inline-block;
+  width: 32rpx;
+  height: 32rpx;
+  position: relative;
+  top: 4rpx;
+}
+
+.personal-list-text text {
+  padding-left: 20rpx;
+}
+
+.personal-list-arrow {
+  margin-top: 6rpx;
+  margin-right: 10rpx;
+  width: 32rpx;
+  height: 32rpx;
+  position: relative;
+}
+
+.cancel {
+  margin: 60rpx 30rpx;
+  padding-bottom: 80rpx;
+}
+
+.cancel-btn {
+  height: 82rpx;
+  line-height: 82rpx;
+  font-size: 30rpx;
+  background-color: #00c587;
+  color: #fff;
+}
+
+button[class="cancel-btn"]::after {
+  border: 0;
+}
+
+.right-arrow1, .right-arrow2 {
+  width: 0;
+  height: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top: 8px transparent dashed;
+  border-right: 8px transparent dashed;
+  border-bottom: 8px transparent dashed;
+  border-left: 8px white solid;
+  overflow: hidden;
+}
+
+.right-arrow1 {
+  left: 2px; /*重要*/
+  border-left: 8px #c2c2c2 solid;
+}
+
+.right-arrow2 {
+  border-left: 8px white solid;
+}
+
+.line-car-grank{
+  width: 702rpx;
+  margin: auto
+}
+
+.vip-title{
+  position: relative;
+  left: 19rpx
+}

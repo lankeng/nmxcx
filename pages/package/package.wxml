@@ -1,0 +1,69 @@
+<view class='package'>
+  <view class='package-top'>
+    <image src='/images/headtop.png' class='pt-img'></image>
+  </view>
+  <view class='package-back'></view>
+  <view class='package-con'>
+    <view class="pcon-ellipsea"></view>
+    <view class="pcon-ellipse"></view>
+    <view class="pcon-ellipsec"></view>
+    <view class="pcon-ellipsed"></view>
+    <view class="pcon-ellipsee"></view>
+    <view class="pcon-ellipsef"></view>
+    <view class="pcon-ellipseg"></view>
+    <view class="pcon-ellipseh"></view>
+    <view class='pcon-pageo'>
+      <view class='pcon-pone'>
+        <image src='/images/packborder.png' class='pone-img'></image>
+      </view>
+      <view class='pageo-title'>套餐一</view>
+      <view class='pageo-con'>1 次记者连线服务</view>
+      <view class='pageo-detail'>您将获得一人次记者连线服务</view>
+      <view class='pageo-money'>
+        <text class='pageo-str'>¥</text>
+        <text class='pageo-num'>198</text>
+      </view>
+      <view class='pageo-btn' bindtap='topaone'>
+        <image src='/images/gobuy.png' class='pbtn-img'></image>
+      </view>
+    </view>
+    <view class='pcon-paget'>
+      <view class='pcon-pone'>
+        <image src='/images/packborder.png' class='pone-img'></image>
+      </view>
+      <view class='pageo-title'>套餐二</view>
+      <view class='pageo-cont'>10 单次记者连线服务</view>
+      <view class='pageo-detailt'>10人次次记者连线服务，牛媒课程优惠券50元</view>
+      <view class='pageo-money'>
+        <text class='pageo-str'>¥</text>
+        <text class='pageo-num'>2199</text>
+      </view>
+      <view class='pageo-btn' bindtap='topatwo'>
+        <image src='/images/gobuy.png' class='pbtn-img'></image>
+      </view>
+    </view>
+    <view class='pcon-paget'>
+      <view class='pcon-pone'>
+        <image src='/images/packborder.png' class='pone-img'></image>
+      </view>
+      <view class='pageo-title'>套餐三</view>
+      <view class='pageo-contr'>年费会员</view>
+      <view class='pageo-detailtr'>100人次记者联系方式获取，有效期内免费听取“牛媒”开发的教程，送咨询服务。</view>
+      <view class='pageo-money'>
+        <text class='pageo-str'>¥</text>
+        <text class='pageo-num'>20000</text>
+      </view>
+      <view class='pageo-btn' bindtap='topathree'>
+        <image src='/images/gobuy.png' class='pbtn-img'></image>
+      </view>
+    </view>
+    <view class='pageo-warn'>
+      <view class='warn-img'>
+        <image src='/images/warn.png' class='wimg-self'></image>
+      </view>
+      <view class='warn-text'>
+        会员在购买套餐后，客服讲主动与您取得联系，牛媒将在24H内返回该记者的联系方式，找不到则退款。
+      </view>
+    </view>
+  </view>
+</view>

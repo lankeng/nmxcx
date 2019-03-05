@@ -1,0 +1,43 @@
+<view class="packageone">
+  <view class='pack-top'>
+    <view class='ptop-img'>
+      <image src='/images/packbac.png' class='pimg-self'></image>
+    </view>
+    <view class='ptop-title'>年费会员</view>
+    <view class='ptop-str'>×</view>
+    <view class='ptop-text'>解决您较大规模的新闻发布会需求</view>
+  </view>
+  <view class='pack-logo'>
+    <view class='plogo-img'>
+      <image class='plimg-self' src='/images/packlogo.png'></image>
+    </view>
+    <view class='plogo-title'>牛媒官方出品</view>
+    <view class='plogo-pbuy'>19人购买</view>
+  </view>
+  <view class='pack-interval'></view>
+  <view class='pack-con'>
+    <view class='pcon-cnt'>
+      <view class='cnt-num'>1</view>
+      <view class='cnt-text'>此项服务可协助您快速解决较大规模的新闻发布会需求，如您需要在相对短期内集中邀请到大量记者参与活动或关注，则可以使用本项服务，快速获得媒体沟通渠道。
+      </view>
+    </view>
+    <view class='pcon-cntr'>
+      <view class='cnt-num'>2</view>
+      <view class='cnt-text'>本项服务仅承诺获取到指定记者的联系方式，并与相关记者沟通到与您有通话；但并不保证记者将愿意对您或您所在的公司进行采访及报道。
+      </view>
+    </view>
+    <view class='pcon-cntr'>
+      <view class='cnt-num'>3</view>
+      <view class='cnt-text'>本项服务在有效期内任意时间内有效，但在任意的30天周期内集中操作的媒体记者联络不得超过50人次。
+      </view>
+    </view>
+    <view class='pcon-cntr'>
+      <view class='cnt-num'>4</view>
+      <view class='cnt-text'>承诺在指定期限内完成需求的联络，如不能完成，则按照未达标比例退款；如指定的媒体记者并非采编岗位或者具有保密要求等非合理可联络到的情况，则即使不能完成联络，亦不予退款。</view>
+    </view>
+  </view>
+  <view class='pack-foot'>
+    <view class='foot-lebtn' bindtap='cancel'>取消</view>
+    <view class='foot-rigbtn'>立即购买</view>
+  </view>
+</view>

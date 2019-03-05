@@ -1,0 +1,44 @@
+<view class='rank'>
+  <view class='rank-select'>
+    <view class='ra-all'>
+      <view class='ra-left'>
+        记者
+      </view>
+      <picker class='rs-author' mode="selector" range="{{array}}" value="{{index}}" bindchange="listenerPickersex">
+        <view class='ra-right'>
+          {{array[index]}}
+          <image src='{{selectimg}}' class='right-img'></image>
+        </view>
+      </picker>
+    </view>
+    <view class='ra-allrank'>
+      <view class='ra-left'>
+        排名
+      </view>
+      <picker class='rs-author' mode="selector" range="{{rankname}}" value="{{rankindex}}" bindchange="listenerPickersexrank">
+        <view class='ra-right'>
+          {{rankname[rankindex]}}
+          <image src='{{selectimg}}' class='right-img'></image>
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class='rank-tab'>
+    <view class='rtab-th'>
+      <view class='rth-rank'>排名</view>
+      <view class='rth-author'>记者</view>
+      <view class='rth-newspaper'>报社</view>
+      <view class='rth-index'>指数</view>
+    </view>
+    <view>
+      <view class='rtab-tr' wx:for="{{repordata}}" wx:key="item">
+        <view class='tr-num'>{{item.mediainfluencerank}}</view>
+        <view class='tr-author' bindtap='toaudetail' data-fdid='{{item.fd_id}}'>
+          <view class='tauthor-name'>{{item.fd_name}}</view>
+        </view>
+        <view class='tr-newspaper'>{{item.medianewsnetwork[0].newspaper}}</view>
+        <view class='tr-index'>{{item.mediainfluencerank}}</view>
+      </view>
+    </view>
+  </view>
+</view>

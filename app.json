@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rank/rank",
+    "pages/personcenter/personcenter",
+    "pages/searchresult/searchresult",
+    "pages/myclaim/myclaim",
+    "pages/aboutme/aboutme",
+    "pages/datashow/datashow",
+    "pages/business/business",
+    "pages/agreement/agreement",
+    "pages/suclaim/suclaim",
+    "pages/claimform/claimform",
+    "pages/livedetail/livedetail",
+    "pages/package/package",
+    "pages/packageone/packageone",
+    "pages/packagetwo/packagetwo",
+    "pages/packagethree/packagethree",
+    "pages/login/login",
+    "pages/regiest/regiest",
+    "pages/findback/findback",
+    "pages/mymaterial/mymaterial",
+    "pages/backerror/backerror",
+    "pages/articledetails/articledetails",
+    "pages/reporterdetails/reporterdetails",
+    "pages/inforcenter/inforcenter",
+    "pages/authorization/authorization"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "牛媒",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#00C587",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "selectedIconPath": "images/searchg.png",
+        "iconPath": "images/search.png",
+        "pagePath": "pages/index/index",
+        "text": "记者搜索"
+      },
+      {
+        "selectedIconPath": "images/rankg.png",
+        "iconPath": "images/rank.png",
+        "pagePath": "pages/rank/rank",
+        "text": "记者排行"
+      },
+      {
+        "selectedIconPath": "images/peoplecenterg.png",
+        "iconPath": "images/peoplecenter.png",
+        "pagePath": "pages/personcenter/personcenter",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

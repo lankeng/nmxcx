@@ -1,0 +1,8 @@
+<view class='suclaim'>
+  <view class='suclaim-yes'>
+    <image src='/images/claimsuc.png' class='syes-img'></image>
+    <view class='syes-text'>认领成功</view>
+  </view>
+  <button class='suclaim-btno'>返回首页</button>
+  <button class='suclaim-btnt'>取消</button>
+</view>

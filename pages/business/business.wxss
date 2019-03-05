@@ -1,0 +1,28 @@
+.business {
+  width: 100%;
+  padding-top: 70rpx;
+}
+
+.business-con {
+  padding: 0 25rpx;
+  color: #333;
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+
+.bs-address {
+  display: inline-block;
+  width: 18%;
+  position: relative;
+  top: -40rpx;
+}
+
+.bs-address-name {
+  display: inline-block;
+  width: 80%;
+}
+
+.bs-comaddress {
+  display: block;
+  width: 100%;
+}

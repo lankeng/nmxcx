@@ -1,0 +1,121 @@
+<!--index.wxml-->
+<view class="homepage">
+  <view class='homepage-head'>
+    <view class='hp-logo'>
+      <image src='{{logo}}' class='logo-slef'></image>
+    </view>
+    <form class='hp-search'>
+      <view class='search-cnt'>
+        <image src='{{search}}' class='scnt-img'></image>
+        <input type='text' placeholder='输入相关信息进行搜索' class='scnt-ipt' placeholder-class='plasearch' bindinput='checksearch' value='{{searchval}}'></input>
+        <image src='{{close}}' class="{{cnt?'scnt-close':'scnt-closea'}}" bindtap='closeipt'></image>
+      </view>
+      <view class='search-btn'>
+        <view class='sbtn-one' bindtap='searchauthor'>
+          <image src='{{author}}' class='so-img'></image>
+          <view class='so-text'>找记者</view>
+        </view>
+        <view class='sbtn-one' bindtap='searchnews'>
+          <image src='{{news}}' class='so-img'></image>
+          <view class='so-text'>搜新闻</view>
+        </view>
+        <view class='sbtn-one' bindtap='searchist'>
+          <image src='{{institutions}}' class='so-img'></image>
+          <view class='so-text'>查报社</view>
+        </view>
+      </view>
+    </form>
+  </view>
+  <view class='hp-interval'></view>
+  <view class='homepage-mid'>
+    <view class='hp-nmdata'>
+      <view class='hn-title'>牛媒大数据</view>
+      <view class='hn-time'>统计时间：{{hntime}}</view>
+      <view class='hn-thdata'>
+        <view class='ht-model'>
+          <view class='hm-num'>{{npaper}}家</view>
+          <view class='hm-title'>当前总报社数</view>
+        </view>
+        <view class='ht-model'>
+          <view class='hm-num'>{{nnews}}篇</view>
+          <view class='hm-title'>当前总新闻数</view>
+        </view>
+        <view class='ht-model'>
+          <view class='hm-num'>{{nauthor}}名</view>
+          <view class='hm-title'>当前总记者数</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='hp-interval'></view>
+  <view class='homepage-foot'>
+    <view class='hp-live'>
+      <view class='hl-titleall'>
+        <view class='hl-title'>直播资讯</view>
+        <view class='hl-ntitle'>每日最新鲜的资讯</view>
+      </view>
+      <view class='hl-cnt' wx:for='{{list}}' wx:key='this' wx:for-item='parentItem' wx:for-index='parentIndex'>
+        <view class='hc-con'>
+          <view class='hcon-top' catchtap='listTap' data-parentindex='{{parentIndex}}'>
+            <view class='hcon-radius'></view>
+            <view class='hcon-text'>{{parentItem.livedata}}</view>
+          </view>
+          <view class='hcon-time'>{{parentItem.datatime}}</view>
+          <view class='list_item_box' wx:if='{{parentItem.show}}'>
+            <view class='list_item' wx:for='{{parentItem.item}}' wx:key='this' data-index='{{index}}' data-parentindex='{{parentIndex}}'>
+              <view class='list_item_name_box hcon-content'>
+                <text class='list_item_name'>{{item.itemName}}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+
+        <!-- <view class='list_box' wx:for='{{list}}' wx:key='this' wx:for-item='parentItem' wx:for-index='parentIndex'>
+          <view class='list'>
+            <view class='list_name_box' catchtap='listTap' data-parentindex='{{parentIndex}}'>
+              <text class='list_item_name'>{{parentItem.listName}}</text>
+            </view>
+            <view class='list_item_box' wx:if='{{parentItem.show}}'>
+              <view class='list_item' wx:for='{{parentItem.item}}' wx:key='this' data-index='{{index}}' data-parentindex='{{parentIndex}}'>
+                <view class='list_item_name_box'>
+                  <text class='list_item_name'>{{item.itemName}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view> -->
+        <!-- <view class='hc-con'>
+          <view class='hcon-top'>
+            <view class='hcon-radius'></view>
+            <view class='hcon-text'>{{livedata}}</view>
+          </view>
+          <view class='hcon-time'>2018-09-30 18:30:12</view>
+        </view>
+        <view class='hc-con'>
+          <view class='hcon-top'>
+            <view class='hcon-radius'></view>
+            <view class='hcon-text'>{{livedata}}</view>
+          </view>
+          <view class='hcon-time'>2018-09-30 18:30:12</view>
+        </view>
+        <view class='hc-con'>
+          <view class='hcon-top'>
+            <view class='hcon-radius'></view>
+            <view class='hcon-text'>{{livedata}}</view>
+          </view>
+          <view class='hcon-time'>2018-09-30 18:30:12</view>
+        </view>
+        <view class='hc-con'>
+          <view class='hcon-top'>
+            <view class='hcon-radius'></view>
+            <view class='hcon-text'>{{livedata}}</view>
+          </view>
+          <view class='hcon-time'>2018-09-30 18:30:12</view>
+        </view> -->
+      </view>
+      <view class='hl-fot'>
+        更多热点资讯
+      </view>
+    </view>
+  </view>
+</view>

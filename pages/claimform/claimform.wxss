@@ -1,0 +1,94 @@
+.claimform{
+  width: 100%;
+  padding-top: 20rpx;
+  padding-bottom: 229rpx;
+}
+.claimform-con{
+  padding: 0rpx 23rpx;
+}
+.clcon-left{
+  color: #F82F08;
+  font-size: 24rpx;
+}
+.cleft-textb{
+  font-size: 30rpx;
+  color: #333333;
+}
+.claimform-cona{
+  display: block;
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  border-bottom: 1rpx solid #E5E5E5;
+  margin-top: 20rpx;
+}
+.claimform-conb{
+  display: block;
+  width: 100%;
+  line-height: 88rpx;
+  margin-top: 20rpx;
+  height: 264rpx;
+}
+.clcon-left{
+  display: inline-block;
+  width: 25%;
+}
+.clcon-right{
+  display: inline-block;
+  width: 75%;
+}
+.cright-text{
+  font-size: 24rpx;
+  color: #333333;
+}
+.cr-iptplace{
+  color: #CACACA;
+  font-size: 24rpx;
+}
+.cr-ipt{
+  color: #333333;
+  font-size: 30rpx;
+}
+.conb-top{
+  border-bottom: 1rpx solid #E5E5E5;
+}
+.conb-bom{
+  height: 146rpx;
+  width: 100%;
+  display: block;
+  padding-top: 30rpx;
+}
+.cbom-add{
+  width: 116rpx;
+  height: 116rpx;
+}
+.bom-img{
+  width: 20%;
+  display: inline-block;
+}
+.bom-add{
+  width: 20%;
+  display: inline-block
+}
+.btn-self{
+  background-color: #00C587;
+  font-size: 36rpx;
+  color: #ffffff;
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin-top: 59rpx;
+}
+.suc-save{
+  width: 100%;
+  height: 64rpx;
+  background-color: #09BB07;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24rpx;
+  line-height: 64rpx;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  opacity: 0;
+}

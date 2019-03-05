@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "记者排行",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+}

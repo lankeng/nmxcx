@@ -1,0 +1,134 @@
+.rank {
+  width: 100%;
+  padding-bottom: 80rpx;
+}
+.rank-select{
+  display: block;
+  margin-top: 29rpx;
+}
+.ra-all {
+  width: 321rpx;
+  height: 88rpx;
+  border: 2rpx solid #f2f2f3;
+  border-radius: 8rpx;
+  display: inline-block;
+  margin-left: 24rpx
+}
+.ra-allrank {
+  width: 321rpx;
+  height: 88rpx;
+  border: 2rpx solid #f2f2f3;
+  border-radius: 8rpx;
+  display: inline-block;
+  margin-left: 60rpx;
+}
+.ra-left {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  width: 140rpx;
+  display: inline-block;
+  text-align: center;
+  line-height: 88rpx;
+}
+
+.rs-author {
+  width: 181rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+  color: #00c587;
+  display: inline-block;
+}
+
+.right-img {
+  width: 18rpx;
+  height: 11rpx;
+  position: absolute;
+  right: 24rpx;
+  top: 16rpx;
+}
+
+.ra-right {
+  position: relative;
+}
+.rank-tab{
+  width: 702rpx;
+  margin: auto;
+}
+.rtab-th{
+  width: 100%;
+  height: 64rpx;
+  background-color: #00C587;
+  display: block;
+  line-height: 64rpx;
+  color: #ffffff;
+  font-size: 30rpx;
+  }
+.rth-rank{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.rth-author{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.rth-index{
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  text-align: center;
+}
+.rth-newspaper{
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  text-align: center;
+}
+.rank-tab{
+  margin-top: 40rpx;
+}
+.rtab-tr{
+  width: 100%;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  display: block;
+  font-size: 30rpx;
+  border-bottom: 1rpx solid #E6F0F3;
+}
+.tr-num{
+  width: 25%;
+  color: #999999;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+.tr-author{
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+.tr-newspaper{
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+.tr-index{
+  width:25%;
+  display: inline-block;
+  color: #00C587;
+  font-weight: bold;
+  text-align: center;
+}
+.tauthor-img{
+  width: 62rpx;
+  height: 62rpx;
+  display: inline-block;
+  position: relative;
+  top: 15rpx;
+}
+.tauthor-name{
+  display: inline-block;
+  color: #333333;
+}

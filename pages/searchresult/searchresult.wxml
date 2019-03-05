@@ -1,0 +1,51 @@
+<view class='searchresult'>
+  <view class='homepage-head'>
+    <form class='hp-search'>
+      <view class='search-cnt'>
+        <image src='{{search}}' class='scnt-img'></image>
+        <input type='text' placeholder='输入相关信息进行搜索' class='scnt-ipt' placeholder-class='plasearch' bindinput='checksearch' value='{{searchval}}' value="{{iptval}}"></input>
+        <image src='{{close}}' class="{{cnt?'scnt-close':'scnt-closea'}}" bindtap='closeipt'></image>
+      </view>
+      <view class='search-btn'>
+        <view class='sbtn-one' bindtap='searchauthor'>
+          <image src='{{author}}' class='so-img'></image>
+          <view class='so-text'>找记者</view>
+        </view>
+        <view class='sbtn-one' bindtap='searchnews'>
+          <image src='{{news}}' class='so-img'></image>
+          <view class='so-text'>搜新闻</view>
+        </view>
+        <view class='sbtn-one' bindtap='searchist'>
+          <image src='{{institutions}}' class='so-img'></image>
+          <view class='so-text'>查报社</view>
+        </view>
+      </view>
+    </form>
+  </view>
+  <view class='rank-tab'>
+    <view class='rtab-th'>
+      <view class='rth-rank'>排序</view>
+      <view class='rth-author'>记者/新闻/机构</view>
+      <view class='rth-newspaper'>报社</view>
+      <view class='rth-index'>收录日期</view>
+    </view>
+    <view wx:if="{{ifshow}}">
+      <view wx:for="{{showdata}}" wx:key="item" wx:for-index="index">
+        <view class='rtab-tr'>
+          <view class='tr-num'>{{index+1}}</view>
+          <view class='tr-author'>
+            <view class='tauthor-name'bindtap='toaudetail' data-fdid='{{item.fd_id}}'>{{item.fd_name}}</view>
+          </view>
+          <view class='tr-newspaper'>{{item.medianewsnetwork[0].newspaper}}</view>
+          <view class='tr-index'></view>
+        </view>
+      </view>
+    </view>
+    <view wx:else>
+      <view class='rtab-noresult'>
+        <image src='/images/noresult.png' class='noresult-img'></image>
+        <view class='noresult-text'>搜索暂无结果！</view>
+      </view>
+    </view>
+  </view>
+</view>

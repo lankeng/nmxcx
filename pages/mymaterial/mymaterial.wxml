@@ -1,0 +1,23 @@
+<view class='myclaim'>
+  <view class='rank-tab'>
+    <view class='rtab-th'>
+      <view class='rth-rank'>素材编号</view>
+      <view class='rth-author'>素材主题</view>
+      <view class='rth-index'>素材日期</view>
+    </view>
+    <view class='rtab-tr'>
+      <view class='tr-num'>2016080000002</view>
+      <view class='tr-author'>
+        <view class='tauthor-name'>2</view>
+      </view>
+      <view class='tr-index'>2018-08-05</view>
+    </view>
+    <view class='rtab-tr'>
+      <view class='tr-num'>2016080000002</view>
+      <view class='tr-author'>
+        <view class='tauthor-name'>2</view>
+      </view>
+      <view class='tr-index'>2018-08-05</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<view class='authorization'>
+  <view class='au-text'>推荐方式登录</view>
+  <button class='au-wx'>
+    <view class='wx-img'>
+      <image src='/images/vip.png' class='img-self'></image>
+    </view>
+    <view class='wx-text'>微信授权登录</view>
+  </button>
+  <button class='au-tel'>
+    <view class='wx-imga'>
+      <image src='/images/vip.png' class='img-self'></image>
+    </view>
+    <view class='wx-texta'>手机快捷登录</view>
+  </button>
+</view>

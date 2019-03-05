@@ -1,0 +1,149 @@
+<view>
+  <view class="portrait">
+    <view class="portrait-car">
+      <view class="portrait-img">
+        <image class="head-portrait-img" src='/images/headimg.png'></image>
+        <text>测试账户01</text>
+      </view>
+      <view class="mouth-car">
+        <view class="line-mouth">
+          <text>南方日报</text>
+          <text>我的单位</text>
+        </view>
+        <view class="line-mouth">
+          <text>社会</text>
+          <text>当前线口</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="line-car">
+  <view class="myranking">
+    <view class="line-car-title"><view class='vip-title'>我的排名</view></view>
+    <view class='line-car-grank'>
+      <view class="line-car-rankinga">
+        <view class="car-ranking">
+          <view class="car-ranking-img">
+            <image src="{{srankg}}"></image>
+            <text class="car-ranking-title">综合排名</text>
+          </view>
+          <text>1320</text>
+        </view>
+        <view class="car-ranking">
+          <view class="car-ranking-img">
+            <image src="{{sranko}}"></image>
+            <text class="car-ranking-title">知名度排名</text>
+          </view>
+          <text>520</text>
+        </view>
+        <view class="car-ranking">
+          <view class="car-ranking-img">
+            <image src="{{srankb}}"></image>
+            <text class="car-ranking-title">影响力排名</text>
+          </view>
+          <text>4502</text>
+        </view>
+      </view>
+      <view class="line-car-rankinga">
+        <view class="car-ranking-row">
+          <text>综合排名</text>
+          <text>1320</text>
+        </view>
+        <view class="car-ranking-row">
+          <text>知名度排名</text>
+          <text>520</text>
+        </view>
+        <view class="car-ranking-row">
+          <text>影响力排名</text>
+          <text>4502</text>
+        </view>
+        <view class="car-ranking-row">
+          <text>影响力排名</text>
+          <text>4502</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="line-height"></view>
+  <view class="myclaim">
+    <view class="line-car-title"><view class='vip-title'>我的认领</view></view>
+    <view class="line-car-ranking">
+      <view class="car-ranking">
+        <text>机构</text>
+        <text>西江日报</text>
+      </view>
+      <view class="car-ranking">
+        <text>姓名</text>
+        <text>兰孝媛</text>
+      </view>
+      <view class="car-ranking">
+        <text>认领日期</text>
+        <text>2018-08-05</text>
+      </view>
+    </view>
+  </view>
+  <view class="line-height"></view>
+  <view class="myclaim">
+    <view class="line-car-title" bindtap='tomaterial'>
+      <view><view class='vip-title'>我的接料</view></view>
+      <text class="personal-list-arrow line-car-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+    <view class="line-car-ranking">
+      <view class="car-ranking">
+        <text>素材编号</text>
+        <text>201608000002</text>
+      </view>
+      <view class="car-ranking">
+        <text>素材主题</text>
+        <text>0202</text>
+      </view>
+      <view class="car-ranking">
+        <text>素材日期</text>
+        <text>2016-08-16</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="line-height"></view>
+  <view class="personal">
+    <view class="personal-list" bindtap='tobusiness'>
+      <view class="personal-list-text">
+        <image src="{{cooperation}}"></image>
+        <text>商务合作</text>
+      </view>
+      <text class="personal-list-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+    <view class="personal-list" bindtap='todatashow'>
+      <view class="personal-list-text">
+        <image src="{{data1}}"></image>
+        <text>数据说明</text>
+      </view>
+      <text class="personal-list-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+    <view class="personal-list" bindtap='toaboutme'>
+      <view class="personal-list-text">
+        <image src="{{aboutmea}}"></image>
+        <text>关于我们</text>
+      </view>
+      <text class="personal-list-arrow">
+       <text class="right-arrow1"></text>
+      <text class="right-arrow2"></text>
+      </text>
+    </view>
+  </view>
+</view>
+
+<view class="cancel">
+  <button class="cancel-btn">注销退出</button>
+</view>

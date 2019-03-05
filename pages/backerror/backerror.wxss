@@ -1,0 +1,29 @@
+.backerror{
+  width: 100%;
+  padding-top: 211rpx;
+}
+.backerror-img{
+  width: 443rpx;
+  height: 277rpx;
+  margin: auto;
+}
+.img-self{
+  width: 100%;
+  height: 100%;
+}
+.backerror-text{
+  font-size: 30rpx;
+  color: #333333;
+  margin-top: 78rpx;
+  text-align: center
+}
+.backerror-btn{
+  width: 677rpx;
+  height: 82rpx;
+  margin: auto;
+  background-color: #00C587;
+  color: #ffffff;
+  font-size: 30rpx;
+  line-height: 82rpx;
+  margin-top: 147rpx;
+}

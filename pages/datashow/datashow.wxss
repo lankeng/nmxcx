@@ -1,0 +1,11 @@
+.datashow{
+  width: 100%;
+  padding-top: 60rpx;
+}
+.datashow-con{
+  text-indent: 2em;
+  padding: 0 25rpx;
+  font-size: 24rpx;
+  color: #333333;
+  line-height: 40rpx;
+}
